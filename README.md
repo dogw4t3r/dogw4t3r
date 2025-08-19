@@ -1,3 +1,4 @@
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: User ID:	Dogwater <business-dogwater@proton.me>
 Comment: Valid from:	8/19/25 7:17 PM
@@ -55,3 +56,4 @@ FMuly+Krz8yeG4mFPS2ILVt/VLJ6r/lh1rrsOiehb3LVxX6Yc0wQlGTMcMPDQ3wy
 TOY=
 =6+6o
 -----END PGP PUBLIC KEY BLOCK-----
+```
