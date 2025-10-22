@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "fonts.css";
+@import "./fonts.css";
 
 @theme {
     --font-heading: "GT America Expanded Black", serif;
@@ -9,18 +9,17 @@
 @layer base {
     h1, h2, h3, h4, h5, h6 {
         font-family: var(--font-heading), serif;
+        font-weight: bold;
+        color: white;
     }
 
     p {
         font-family: var(--font-body), serif;
+        color: white;
     }
 }
 
 html,
 body {
-  @apply bg-white dark:bg-black;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  background: #161618;
 }
