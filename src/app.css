@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('lib/assets/fonts/GT-America-Expanded-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GT America Extended Black */
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('lib/assets/fonts/GT-America-Extended-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GT America Extended Light */
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('lib/assets/fonts/GT-America-Extended-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GT America Mono Regular */
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('lib/assets/fonts/GT-America-Mono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GT Sectra Fine Bold */
+@font-face {
+    font-family: 'GT Sectra Fine';
+    src: url('lib/assets/fonts/GT-Sectra-Fine-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'GT America Expanded', monospace;
+}
+
+a,
+p,
+article {
+    font-family: 'GT America Extended', monospace;
+}
